@@ -1,0 +1,16 @@
+[project]
+name = "prototype-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlmodel",
+    "passlib[bcrypt]",
+    "python-jose[cryptography]",
+    "pydantic",
+    "bcrypt==4.0.1",
+    "legacy-cgi",
+]
